@@ -39,4 +39,4 @@ async def on_voice_state_update(member, before, after):
             del data_voice['total'][user_id]['start_time']
     save_data_voice(data_voice)
 
-bot.run('0000.0000')
+bot.run()
